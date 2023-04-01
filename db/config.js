@@ -1,4 +1,4 @@
-import { DB_SSL, DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, DB_PORT } from '../src/env-config.js';
+// import { DB_SSL, DB_HOST, DB_USER, DB_PASSWORD, DB_NAME, DB_PORT } from '../src/env-config.js';
 import {createPool} from 'mysql2/promise';
 import fs from 'fs';
 

@@ -9,6 +9,7 @@ export const pool = createPool({
     password: 'Saoko1234!',
     database: 'healthfiles',
     port: 3306,
+
 });
 
-// ssl: 'ca: fs.readFileSync(\'./SSL/DigiCertGlobalRootCA.crt.pem\')' ,
+// ssl: {ca: fs.readFileSync('../src/SSL/DigiCertGlobalRootCA.crt.pem')}

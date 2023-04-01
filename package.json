@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@react-native-picker/picker": "^2.4.9",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "jsdoc": "^4.0.2",
